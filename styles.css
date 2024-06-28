@@ -1,0 +1,425 @@
+#list1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 31px;
+    right: 85px;
+    list-style: none;
+    color: white;
+}
+
+#list1 a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+#list1 a:hover{
+    color: grey;
+}
+#list1 li:nth-child(2):hover #sub-list1{
+    display: block;
+    position: fixed;
+    z-index: 3;
+}
+#list1 li:nth-child(3):hover #sub-list1{
+    display: block;
+    position: fixed;
+    z-index: 3;
+}
+#list1 li:nth-child(4):hover #sub-list1{
+    display: block;
+    position: fixed;
+    z-index: 3;
+}
+#list1 li:nth-child(5):hover #sub-list1{
+    display: block;
+    position: fixed;
+    z-index: 3;
+}
+
+#sub-list1{
+    list-style: none;
+    box-sizing: border-box;
+    background: rgb(31, 29, 29);
+    padding: 2px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: none;
+}
+
+
+#sub-list1 a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    list-style: none;
+    text-decoration: underline;
+}
+
+#text1{
+    color: white;
+    text-align: end;
+    position: relative;
+    top: 10px;
+    right: 150px;
+}
+#subtext1{
+    color: goldenrod;
+    position: absolute;
+    left: 67rem;
+    bottom: 125px;
+}
+
+#text{
+    font-size: 38px;
+    font-weight: bold;
+    position: relative;
+    bottom: 19px;
+    right: 15px;
+}
+
+#btn1:hover{
+    filter: brightness(70%);
+}
+
+#sub-list2 a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    /* margin-top: 30px; */
+}
+#sub-list2 a:hover{
+    color: goldenrod;
+}
+
+/* style="position: relative; margin-right: 70px; text-decoration: none; color: white;" */
+
+#footertext a{
+    position: relative;
+    margin-right: 70px;
+    text-decoration: none;
+    color: white;
+}
+#footertext a:hover{
+    color: goldenrod;
+}
+
+/* styling for history page */
+
+
+
+.box1{
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 0px 0px 35px rgb(66, 65, 65);
+    position: relative;
+    left: 15%;
+    margin-bottom: 60px;
+    animation: SlideInFromLeft 7s ease-in;
+    
+}
+
+.box2{
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 0px 0px 35px rgb(66, 65, 65);
+    position: relative;
+    left: 55%;
+    margin-bottom: 60px;
+    animation: SlideInFromRight 7s ease-in;
+    
+}
+
+.box3{
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 0px 0px 35px rgb(66, 65, 65);
+    position: relative;
+    left: 21%;
+    margin-bottom: 60px;
+    animation: SlideInFromLeft 7s ease-in;
+    
+}
+
+.box4{
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 0px 0px 35px rgb(66, 65, 65);
+    position: relative;
+    left: 55%;
+    margin-bottom: 60px;
+    animation: SlideInFromRight 7s ease-in;
+    
+}
+
+.box5{
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 0px 0px 35px rgb(66, 65, 65);
+    position: relative;
+    left: 20%;
+    margin-bottom: 60px;
+    animation: SlideInFromLeft 7s ease-in;
+}
+
+.box6{
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 0px 0px 35px rgb(66, 65, 65);
+    position: relative;
+    left: 49%;
+    margin-bottom: 60px;
+    animation: SlideInFromRight 7s ease-in;
+    
+}
+
+.box7{
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 0px 0px 35px rgb(66, 65, 65);
+    position: relative;
+    left: 29%;
+    margin-bottom: 60px;
+    animation: SlideInFromLeft 7s ease-in;
+    
+}
+
+.box8{
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 0px 0px 35px rgb(66, 65, 65);
+    position: relative;
+    left: 55%;
+    margin-bottom: 60px;
+    animation: SlideInFromRight 7s ease-in;
+    
+}
+
+.box9{
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 0px 0px 35px rgb(66, 65, 65);
+    position: relative;
+    left: 15%;
+    margin-bottom: 60px;
+    animation: SlideInFromLeft 7s ease-in;
+    
+}
+
+.box10{
+    background: white;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: 0px 0px 35px rgb(66, 65, 65);
+    position: relative;
+    left: 55%;
+    margin-bottom: 60px;
+    animation: SlideInFromRight 7s ease-in;
+    
+}
+
+.fonts p{
+    position: relative;
+    bottom: -10px;
+    font-size: small;
+}
+.fonts h4{
+    font-weight: bold;
+}
+
+#user{
+    position: relative;
+    bottom: 3px;
+    left: 49px;
+    height: 70px;
+    width: 70px;
+    color: goldenrod;
+    transition: 1s ease-in-out;
+}
+#globe{
+    position: relative;
+    bottom: 3px;
+    left: 52px;
+    height: 70px;
+    width: 70px;
+    color: goldenrod;
+    transition: 1s ease-in-out;
+}
+#language{
+    position: relative;
+    bottom: 3px;
+    left: 35px;
+    height: 70px;
+    width: 70px;
+    color: goldenrod;
+    transition: 1s ease-in-out;
+}
+
+#user:hover{
+    position: relative;
+    bottom: 10px;
+}
+#globe:hover{
+    position: relative;
+    bottom: 10px;
+}
+#language:hover{
+    position: relative;
+    bottom: 10px;
+}
+
+#pp{
+    position: relative;
+    left: 48px;
+}
+#pp a:hover{
+    color: goldenrod;
+}
+
+
+
+@keyframes SlideInFromLeft{
+
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+    @keyframes SlideInFromRight{
+
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    }
+
+
+    /* styling for our team page */
+
+#team-btn{
+    border: none;
+    border-radius: 5px;
+    background: goldenrod;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 8px;
+}
+#team-btn a{
+    text-decoration: none;
+    color: white;
+}
+#team-btn:hover{
+    filter: brightness(70%);
+}
+
+
+       /* styling for awards page */
+
+#aa-btn{
+    border: none;
+    border-radius: 5px;
+    background: goldenrod;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 8px;
+    color: white;
+}
+#aa-btn a{
+    text-decoration: none;
+    color: white;
+}
+#aa-btn:hover{
+    filter: brightness(70%);
+}
+
+#awd-btn{
+    border: none;
+    border-radius: 5px;
+    background: goldenrod;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    color: black;
+    justify-content: center;
+    left: 40%;
+    top: 10px;
+}
+
+#awd-btn a{
+    text-decoration: none;
+    color: black;
+}
+#awd-btn:hover{
+    filter: brightness(70%);
+}
+
+      /* styling for contact page */
+
+#contactform{
+    background: cornflowerblue;
+    width: 600px;
+    height: 550px;
+    position: relative;
+    bottom: 42rem;
+    left: 40rem;
+    z-index: 1;
+}
+.formform{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+.formform input{
+    border-radius: 7px;
+}
+#contactbtn{
+    border: none;
+    border-radius: 7px;
+    background: goldenrod;
+    width: 80px;
+}
+#contactbtn:hover{
+    filter: brightness(60%);
+}
+
+
